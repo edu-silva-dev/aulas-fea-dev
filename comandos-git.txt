@@ -1,0 +1,6 @@
+Comandos em Git
+
+git init => Inicia o git no Vs Code
+git add . => Adiciona o arquivo ao repositório local
+git commit -m "mensagem" => Faz o commit para o repositório adicionando uma mensagem.
+git config user.name -nome do usuário- => Troca o nome do usuário atual do git
