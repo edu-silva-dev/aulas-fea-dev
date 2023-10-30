@@ -29,7 +29,7 @@ import random
 def numeroCerto():
     cont_loop = 1
     while cont_loop <=3:
-        numeroSecreto = random.randint(1,100) 
+        numeroSecreto = random.randint(1,100)
         print('Informe um número para advinhação entre 1 e 100, você tem 3 tentativas')
         numeroEscolhido = int(input())
         if cont_loop == 3:
