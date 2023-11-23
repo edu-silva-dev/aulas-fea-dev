@@ -1,6 +1,8 @@
 import random
 import time
 import datetime
+import pandas as pd
+import numpy as np
 def roleta():
     numeroCasa = random.randint(0,36)
     print('Rodando a roleta... Aguarde')
@@ -55,3 +57,8 @@ listaDenomes = ["Alice", "Bob", "Carlos", "Diana", "Eva","Henrique", "Isadora", 
 print(f'O nome escolhido para ganhar a ALEXA 3ª Geração é: {random.choice(listaDenomes)}')
 
 
+#Use o Pandas para ler os dados do arquivo CSV que está anexado à lista e criar um DataFrame.
+#Além disso, vizualize somente as 5 primeiras linhas.
+
+data = pd.read_csv('/10359%2F1698688206146-books2019file.csv')
+print(type(data))
